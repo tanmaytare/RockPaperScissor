@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+h2 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+h1 {
+   
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ECCA3;
+  }
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+.w {
+    background-image: url("./images/Stone.png");
+    background-size: 102%;
+    background-position: center;
+}
+
+.a {
+    background-image: url("./images/paper.png");
+    background-size: 102%;
+    background-position: center;
+}
+
+.s {
+    background-image: url("./images/Scissor.png");
+    background-size: 102%;
+    background-position: center;
+}
+
+
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 0rem;
+    color: #eddde400;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+}
+/* Existing CSS remains unchanged */
+
+.button-container {
+    display: inline-block;
+    margin: 0 20px; /* Adjust as needed for spacing between buttons */
+    text-align: center;
+    color: #DBEDF3;
+}
+
+
+.scorecard {
+    visibility: hidden;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #404B69;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    left: 77%;
+    top: 35%;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+#computerScore,
+#userScore {
+    font-size: 1.2rem;
+}
+
+.view{
+    visibility: visible;
+}
+
+.hide
+{
+    visibility: hidden;
+}
+
+.game-rules {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: #404B69;
+    border-radius: 10px;
+    color: #DBEDF3;
+    line-height: 1;
+}
+
+.game-rules p{
+    font-size: 1.5rem;
+}
+
+.game-rules #enter
+{
+    text-align: center;
+   
+    margin: 20px;
+    width: 700px;
+    padding: 20px;
+    background-color: #694053;
+    border-radius: 10px;
+    color: #DBEDF3;
+}
+
+.game-rules h2
+{
+    text-align: center;
+}
