@@ -104,6 +104,6 @@ function startOver() {
   
   function playSound(are)
   {
-    var aud = new Audio("./sounds/" + are +".mp3");
+    var aud = new Audio("./" + are +".mp3");
     aud.play();
   }
